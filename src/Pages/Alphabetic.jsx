@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import NavBar from "../Components/Layout/Navbar";
+import Footer from "../Components/Layout/Footer";
 
 function Alphabetic() {
   const [resultado1, setResultado1] = useState(null);
@@ -202,9 +203,9 @@ console.log(strings);
           )}
 
           <p className="mt-8 mb-4">
-            Lembrando que o <span className="text-purple-400">sort()</span>{" "}
-            pode ter um comportamento inesperado ao tentar ordenar números. O
-            método considera os números como strings, então se tentarmos ordenar
+            Lembrando que o <span className="text-purple-400">sort()</span> pode
+            ter um comportamento inesperado ao tentar ordenar números. O método
+            considera os números como strings, então se tentarmos ordenar
             números inteiros, o comportamento pode ser estranho.
           </p>
 
@@ -223,6 +224,7 @@ console.log(inteiros);
           </pre>
         </div>
       </section>
+      <Footer/>
     </main>
   );
 }

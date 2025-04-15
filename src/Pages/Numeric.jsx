@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import NavBar from "../Components/Layout/Navbar";
+import Footer from "../Components/Layout/Footer";
 
 function Numeric() {
   const [minValue, setMinValue] = useState(null);
@@ -45,8 +46,8 @@ function Numeric() {
 
           <p className="mb-6 leading-relaxed">
             O método <span className="text-purple-400">min()</span> retorna o{" "}
-            menor valor numérico entre os argumentos passados. Ele pode ser
-            útil tanto para encontrar o menor número quanto para limitar valores
+            menor valor numérico entre os argumentos passados. Ele pode ser útil
+            tanto para encontrar o menor número quanto para limitar valores
             máximos.
           </p>
 
@@ -74,7 +75,8 @@ console.log(Math.min(...numeros));
 
           <p className="mt-8 mb-4">
             Podemos usar o <span className="text-purple-400">Math.min()</span>{" "}
-            para garantir que a média de notas não ultrapasse o valor máximo permitido (10).
+            para garantir que a média de notas não ultrapasse o valor máximo
+            permitido (10).
           </p>
 
           <h3 className="text-xl font-semibold mb-2 text-purple-300">
@@ -138,7 +140,9 @@ console.log(Math.max(...numeros));
           )}
 
           <p className="mt-8 mb-4">
-            Podemos usar <span className="text-purple-400">Math.max()</span> para garantir que notas negativas sejam ignoradas e que a nota mínima seja 0.
+            Podemos usar <span className="text-purple-400">Math.max()</span>{" "}
+            para garantir que notas negativas sejam ignoradas e que a nota
+            mínima seja 0.
           </p>
 
           <h3 className="text-xl font-semibold mb-2 text-purple-300">
@@ -166,6 +170,7 @@ console.log(notaFinal);
           )}
         </div>
       </section>
+      <Footer />
     </main>
   );
 }

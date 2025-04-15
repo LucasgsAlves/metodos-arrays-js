@@ -2,6 +2,8 @@ import React from "react";
 import { Link } from "react-router-dom";
 import NavBar from "../Components/Layout/Navbar";
 import Card from "../Components/UI/Card";
+import Footer from "../Components/Layout/Footer";
+
 
 function Home() {
   return (
@@ -37,11 +39,10 @@ function Home() {
         </div>
       </section>
 
-      <section className="bg-[#120f38] flex justify-center items-center p-6 gap-4 flex-grow">
+      <section className="bg-[#120f38] flex justify-center items-center p-6 gap-4 h-96">
         <Link to="/Alphabetic">
           <Card
             title="ALPHABETIC"
-            description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatibus."
             buttonText="Ver mais"
           />
         </Link>
@@ -49,11 +50,11 @@ function Home() {
         <Link to="/Numeric">
           <Card
             title="NUMERIC"
-            description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatibus."
             buttonText="Ver mais"
           />
         </Link>
       </section>
+      <Footer/>
     </main>
   );
 }

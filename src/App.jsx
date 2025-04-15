@@ -1,9 +1,9 @@
 import React from "react";
 import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
-import './styles/global.css';
+import "./styles/global.css";
 import Home from "./Pages/Home";
-import Alphabetic from "./Pages/Alphabetic"; 
-import Numeric from "./Pages/Numeric"; 
+import Alphabetic from "./Pages/Alphabetic";
+import Numeric from "./Pages/Numeric";
 
 function App() {
   return (
