@@ -1,8 +1,8 @@
-# React + Vite
+# ARRAY SORT METHOD
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Um trabalho sobre metodos de arrays no javascript, desenvolvido em React, usando tailwind convertidos para HTML,CSS E JS.
 
-Currently, two official plugins are available:
+## PARTICIPANTES
 
 - [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
 - [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh

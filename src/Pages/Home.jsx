@@ -4,7 +4,6 @@ import NavBar from "../Components/Layout/Navbar";
 import Card from "../Components/UI/Card";
 import Footer from "../Components/Layout/Footer";
 
-
 function Home() {
   return (
     <main className="min-h-screen flex flex-col">
@@ -17,17 +16,18 @@ function Home() {
             <span className="text-[#8706d0]"> CAOS</span> COMPLETO?
           </h2>
           <p className="text-white mt-4">
-            Com <span className="text-[#8706d0]">sort()</span>, você pode
-            trazer ordem ao caos.
+            Com <span className="text-[#8706d0]">sort()</span>, você pode trazer
+            ordem ao caos.
           </p>
         </div>
         <div className="flex flex-col justify-center items-center p-6 h-[300px] w-[700px] self-center">
           <h2 className="text-white font-bold text-3xl">ARRAY SORT METHOD</h2>
           <p className="text-white mt-4 text-center">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eveniet
-            eaque, quas sit repudiandae sapiente ut non temporibus officiis!
-            Aliquam accusamus a odit sint, sapiente at dolorum quas repudiandae?
-            Enim, quos!
+            O método sort() é uma função usada para organizar os elementos de
+            uma lista em ordem crescente. Ele modifica a lista original,
+            colocando os itens na sequência desejada. Também permite ordenar em
+            ordem decrescente ou com base em algum critério específico, se for
+            configurado.
           </p>
 
           <button
@@ -41,20 +41,14 @@ function Home() {
 
       <section className="bg-[#120f38] flex justify-center items-center p-6 gap-4 h-96">
         <Link to="/Alphabetic">
-          <Card
-            title="ALPHABETIC"
-            buttonText="Ver mais"
-          />
+          <Card title="ALPHABETIC" buttonText="Ver mais" />
         </Link>
 
         <Link to="/Numeric">
-          <Card
-            title="NUMERIC"
-            buttonText="Ver mais"
-          />
+          <Card title="NUMERIC" buttonText="Ver mais" />
         </Link>
       </section>
-      <Footer/>
+      <Footer />
     </main>
   );
 }
