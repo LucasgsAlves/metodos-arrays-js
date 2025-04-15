@@ -38,7 +38,7 @@ function Home() {
       </section>
 
       <section className="bg-[#120f38] flex justify-center items-center p-6 gap-4 flex-grow">
-        <Link to="/alphabetic">
+        <Link to="/Alphabetic">
           <Card
             title="ALPHABETIC"
             description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatibus."
@@ -46,7 +46,7 @@ function Home() {
           />
         </Link>
 
-        <Link to="/numeric">
+        <Link to="/Numeric">
           <Card
             title="NUMERIC"
             description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatibus."

@@ -10,7 +10,7 @@ function NavBar() {
             INICIO
           </Link>
           <Link to="/Alphabetic" className="transition-all duration-300 transform hover:scale-110">
-            ALPHABETIC {/* Link para a página Alphabetic */}
+            ALPHABETIC
           </Link>
           <Link to="/Numeric" className="transition-all duration-300 transform hover:scale-110">
             NUMERIC
