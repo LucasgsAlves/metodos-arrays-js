@@ -13,3 +13,6 @@ Um trabalho sobre metodos de arrays no javascript, desenvolvido em React, usando
 
 ## O QUE É ABORDADO NESSE TRABALHO
 Esse trabalho aborda temas, de manipulaço de strings e números dentro de arrays no javascript com uso de metódos.
+
+#LINK 
+https://lucasgsalves.github.io/metodos-arrays-js/
